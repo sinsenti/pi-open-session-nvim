@@ -1,0 +1,15 @@
+{
+  "name": "pi-open-session-nvim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open Pi session transcripts in Neovim",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./open-session-nvim.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
